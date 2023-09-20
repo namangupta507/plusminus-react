@@ -1,0 +1,44 @@
+[debug] [2023-09-20T06:48:56.724Z] ----------------------------------------------------------------------
+[debug] [2023-09-20T06:48:56.727Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cggup\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-20T06:48:56.727Z] CLI Version:   12.5.4
+[debug] [2023-09-20T06:48:56.727Z] Platform:      win32
+[debug] [2023-09-20T06:48:56.728Z] Node Version:  v18.17.1
+[debug] [2023-09-20T06:48:56.729Z] Time:          Wed Sep 20 2023 12:18:56 GMT+0530 (India Standard Time)
+[debug] [2023-09-20T06:48:56.729Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-20T06:48:56.824Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-20T06:48:56.825Z] > authorizing via signed-in user (naman.gupta507@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\cggup\plusminus
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-20T06:50:36.826Z] Using project from CLI flag: plusminus-1e5a3
+[debug] [2023-09-20T06:50:36.829Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/plusminus-1e5a3 [none]
+[debug] [2023-09-20T06:50:37.863Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/plusminus-1e5a3 200
+[debug] [2023-09-20T06:50:37.864Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/plusminus-1e5a3 {"projectId":"plusminus-1e5a3","projectNumber":"698974364465","displayName":"plusminus","name":"projects/plusminus-1e5a3","resources":{"hostingSite":"plusminus-1e5a3"},"state":"ACTIVE","etag":"1_4a7e79de-ab7c-45e0-8d7d-9436e40afdc9"}
+[info] i  Using project plusminus-1e5a3 (plusminus) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
